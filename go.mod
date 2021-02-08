@@ -1,6 +1,8 @@
-module github.com/webdevops/go-crond
+module github.com/smlx/go-crond
 
 go 1.14
+
+replace github.com/webdevops/go-crond => github.com/smlx/go-crond custom-workdir-mod-update
 
 require (
 	github.com/jessevdk/go-flags v1.4.0
